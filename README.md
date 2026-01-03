@@ -25,6 +25,22 @@ The system uses:
 - Video processing using OpenCV
 - Working with pretrained deep learning models
 
+  ---
+## ▶️ How to Run This Project (Windows)
+-# Step 1: Open terminal in project folder
+-cd Player-Re-identification-and-Tracking-in-a-Football-Video
+
+-# Step 2: Install dependencies
+-pip install ultralytics opencv-python deep_sort_realtime
+
+-# Step 3: Place required files
+- best.pt (YOLO model)
+- 15sec_input_720p.mp4 (input video)
+
+-# Step 4: Run the project
+-python main.py
+
+
 ---
 
 
